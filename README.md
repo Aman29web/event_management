@@ -1,6 +1,6 @@
 
-**Event Website**
-```
+# Event Website
+
 This repository contains my submission for the Web Developer Technical Test.
 The project includes a React + Tailwind CSS frontend and a Node.js + Express + MongoDB backend, designed to display event information, pages, sections, and a working contact form.
 
@@ -36,7 +36,7 @@ MongoDB
 Tools
 
 Git / GitHub
-
+```
 📁 Folder Structure
 Frontend (React + Vite + Tailwind)
 frontend/
@@ -76,7 +76,8 @@ frontend/
 ├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
-
+```
+```
 Backend (Node.js + Express + MongoDB)
 backend/
 │
@@ -102,7 +103,7 @@ backend/
 ├── .gitignore
 ├── package.json
 └── README.md (optional)
-
+```
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/project-name.git
@@ -165,4 +166,4 @@ fetch("http://localhost:5000/api/contact", {
 VS Code
 
 Postman (API testing)
-```
+

@@ -5,7 +5,8 @@ This repository contains my submission for the Web Developer Technical Test.
 The project includes a React + Tailwind CSS frontend and a Node.js + Express + MongoDB backend, designed to display event information, pages, sections, and a working contact form.
 
 ## Live Demo
-Add your deployed link here
+<a href="[https://google.com](https://event-management-w4bu.vercel.app/)" target="_blank">Live link</a>
+
 
 ## Features
 
@@ -115,6 +116,6 @@ Install dependencies:
 * PORT=5000
 
 ### Start backend server:
-*npm start
+* npm start
 
 

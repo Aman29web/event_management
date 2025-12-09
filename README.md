@@ -4,38 +4,41 @@
 This repository contains my submission for the Web Developer Technical Test.
 The project includes a React + Tailwind CSS frontend and a Node.js + Express + MongoDB backend, designed to display event information, pages, sections, and a working contact form.
 
-Live Demo
+## Live Demo
 Add your deployed link here
 
-Features
+## Features
 
-Fully responsive event website
-Modern UI using React + Tailwind CSS
-Component-based architecture
-Smooth transitions and animations
-Contact form connected to backend API
-MongoDB database for storing contact submissions
-Pages for event details, overview, sponsors, and more
-Clean, reusable file structure
-Designed based on professional event websites
+* Fully responsive event website
+* Modern UI using React + Tailwind CSS
+* Component-based architecture
+* Smooth transitions and animations
+* Contact form connected to backend API
+* MongoDB database for storing contact submissions
+* Pages for event details, overview, sponsors, and more
+* Clean, reusable file structure
+* Designed based on professional event websites
 
 
-Tech Stack
+## Tech Stack
 
-Frontend
-React.js 
-Tailwind CSS
-JavaScript
+* Frontend
+* React.js 
+* Tailwind CSS
+* JavaScript
 
 Backend
 
-Node.js
-Express.js
-MongoDB
+* Node.js
+* Express.js
+* MongoDB
 
 Tools
 
-Git / GitHub
+* Git / GitHub
+* Vs Code
+* Postman
+  
 ```
 📁 Folder Structure
 Frontend (React + Vite + Tailwind)
@@ -104,36 +107,31 @@ backend/
 ├── package.json
 └── README.md (optional)
 ```
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+## Installation & Setup
+1) Clone Repository
 git clone https://github.com/yourusername/project-name.git
 cd project-name
 
-🎨 Frontend Setup
+## Frontend Setup
 Install dependencies:
-cd frontend
-npm install
+* cd client
+* npm install
 
-Run development server:
-npm run dev
+### Run development server:
+* npm run dev
 
-Build for production:
-npm run build
-
-🖥️ Backend Setup
+## Backend Setup
 Install dependencies:
-cd backend
-npm install
+* cd backend
+* npm install
 
-Add environment variables:
+## Add environment variables:
+* Create .env inside backend/:
+* MONGO_URI=your_mongodb_connection_string
+* PORT=5000
 
-Create .env inside backend/:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-
-Start backend server:
-npm start
+## Start backend server:
+*npm start
 
 🔌 API Documentation
 POST /api/contact

@@ -40,7 +40,7 @@ Tools
 * Postman
   
 ```
-📁 Folder Structure
+Folder Structure
 Frontend (React + Vite + Tailwind)
 frontend/
 │
@@ -85,27 +85,11 @@ Backend (Node.js + Express + MongoDB)
 backend/
 │
 ├── node_modules/
-│
-├── src/
-│   ├── config/
-│   │   └── db.js
-│   │
-│   ├── controllers/
-│   │   └── contactController.js
-│   │
-│   ├── models/
-│   │   └── Contact.js
-│   │
-│   ├── routes/
-│   │   └── contactRoutes.js
-│   │
-│   ├── server.js
-│   └── utils/          # (optional helpers)
-│
+│── server.js
 ├── .env
 ├── .gitignore
 ├── package.json
-└── README.md (optional)
+└── README.md
 ```
 ### Installation & Setup
 1) Clone Repository

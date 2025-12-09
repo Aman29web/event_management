@@ -94,7 +94,7 @@ backend/
 ```
 ### Installation & Setup
 1) Clone Repository
-git clone https://github.com/yourusername/project-name.git
+git clone https://github.com/Aman29web/event_management
 cd project-name
 
 ### Frontend Setup

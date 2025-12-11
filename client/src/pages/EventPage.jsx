@@ -8,6 +8,7 @@ import TopicHighlights from '../components/TopicHighlights';
 import WhyAttend from '../components/WhyAttend';
 import WhySponsor from '../components/WhySponsor';
 import ContactForm from '../components/ContactForm';
+import WorkplaceCasualtiesDashboard from '../components/WorkplaceCasualtiesDashboard';
 
 const EventPage = () => {
   const { eventId } = useParams();
@@ -28,6 +29,7 @@ const EventPage = () => {
       <WhoWillMeet event={event} />
       <TopicHighlights event={event} />
       <WhyAttend event={event} />
+      <WorkplaceCasualtiesDashboard></WorkplaceCasualtiesDashboard>
       <WhySponsor />
       <ContactForm />
     </div>

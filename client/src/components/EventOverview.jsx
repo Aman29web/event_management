@@ -9,7 +9,7 @@ const EventOverview = ({ event }) => {
   };
 
   const highlights = [
-    { icon: FaRocket, title: 'Innovation', desc: 'Latest trends & technologies' },
+    { icon: FaRocket, title: 'Innovations', desc: 'Latest trends & technologies' },
     { icon: FaUsers, title: 'Networking', desc: 'Connect with industry leaders' },
     { icon: FaChartLine, title: 'Growth', desc: 'Strategic insights & opportunities' },
     { icon: FaLightbulb, title: 'Knowledge', desc: 'Expert-led sessions & workshops' }
